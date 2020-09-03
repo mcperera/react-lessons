@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-/README
+README.md
 
 # production
 /build
