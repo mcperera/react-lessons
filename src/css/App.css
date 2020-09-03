@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App-header {
+  text-align: center;
+  margin: 0px;
+  padding: 20px;
+  background-color: aqua;
+}
+
+.App-header h1 {
+  margin: 20px;
+}
+
+.navigation-menu {
+  background-color: black;
+  align-content: center;
+  padding: 10px;
+}
+
+.navigation-menu a {
+  color: aqua;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  padding: 25px;
+  margin: 25px;
+}
+
+.main-content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left-content,
+.middle-content,
+.right-content {
+  float: left;
+  width: 33.1%;
+  padding: 15px;
+  border: 2px solid black;
+  margin: 2px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 10px 0;
+  width: 70%;
+  border-bottom: 1px solid black;
+  font-weight: 100;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+
+.counterDiv {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+.footerImg {
+  text-align: center;
+}
