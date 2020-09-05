@@ -3,6 +3,8 @@ import "../css/App.css";
 import TodoItems from "./TodoItems";
 import todosData from "../todosData";
 import Counter from "./Counter";
+import FetchData from "./FetchData";
+import Form from "./Form";
 
 // function MiddleContent() {
 //   const todoComponent = todosData.map((item) => (
@@ -53,6 +55,8 @@ class MiddleContent extends Component {
         <h1>MiddleContent</h1>
         {todoComponent}
         <Counter />
+        <FetchData />
+        <Form />
       </div>
     );
   }
